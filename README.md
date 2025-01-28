@@ -27,7 +27,7 @@ Due to it being older, the code is definitely not the best, and you will have to
 
 ## Config Setup:
 
-This will be the `config.json` file, and how to set it up properly.
+This will be the `Data/config.json` file, and how to set it up properly.
 
 ```json
 {

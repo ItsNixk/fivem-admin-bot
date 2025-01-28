@@ -1,0 +1,11 @@
+{
+    "all": ["GUILDID", "GUILDID"],
+    "token": "",
+    "prefix": ".",
+    "copyright": "",
+    "ownerid": "",
+    "serverid": "",
+    "mst": 5000,
+    "server": "",
+    "mongooseConnectionString": ""
+}

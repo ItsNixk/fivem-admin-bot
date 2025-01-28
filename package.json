@@ -1,0 +1,26 @@
+{
+  "name": "trxppyhxppy-admin-bot",
+  "version": "1.0.0",
+  "description": "trxppyhxppy-admin-bot",
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "compress": "^0.99.0",
+    "discord-fivem-api": "^1.0.6",
+    "discord-html-transcripts": "^1.1.1",
+    "discord.js": "^13.5.1",
+    "discord.js-search": "^1.0.1",
+    "duration": "^0.2.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "node-fetch": "^3.3.0",
+    "optparse": "^1.0.5",
+    "ts3-nodejs-library": "^3.4.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "pretest": "eslint --ignore-path .gitignore ."
+  }
+}
