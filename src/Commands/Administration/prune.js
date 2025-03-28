@@ -44,17 +44,16 @@ module.exports = {
 
             const LogEmbed = new MessageEmbed()
                 .setColor("BLUE")
-			    .setTitle(`Bot Alert - Message Prune`)
+		.setTitle(`Bot Alert - Message Prune`)
                 .setDescription('An admin has pruned messages from a channel. Reference the below logging.')
                 .setThumbnail('SERVERLOGO')
                 .addFields(
                     { name: 'Messages Pruned:', value: `${deletedMessages.size}`, inline: true  },
                     { name: 'Channel & Guild:', value: `${message.channel}, ${message.guild}`, inline: true   },
                     { name: 'Pruned By:', value: `${message.author}`, inline: true   },
-                    
                 )
                 .setTimestamp()
-           	    .setFooter({ text: 'SERVERNAME', iconURL: 'SERVERLOGO' });
+           	.setFooter({ text: 'SERVERNAME', iconURL: 'SERVERLOGO' });
 
             await client.guilds.cache.get("GUILDID").channels.cache.get("LOGCHANNELID").send({ 
                 embeds: [LogEmbed]
